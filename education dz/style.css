@@ -1,0 +1,142 @@
+body{
+    background: linear-gradient(to right, rgb(121, 62, 197), rgb(25, 60, 216) );
+    
+}
+#welcome{
+    color:rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    align-self: left;
+    margin-left: 100px;
+    box-shadow: 1px;
+}
+.sign{
+    background:linear-gradient(to right, rgba(153, 153, 153, 0.514) ,rgba(233, 233, 233, 0.418));
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: stretch;
+    flex-wrap: nowrap; 
+    border-color:aliceblue;
+    transition: 0.5s ease;
+    margin-left: 70px;
+    
+}
+.inputt{
+    margin: 10px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color:aliceblue;
+    font-size: 20px;
+    width: 89%;
+    transition:0.5s ease;
+
+}
+#ent{
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    font-size: 30px;
+}
+.inputt:hover{
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+#acc{
+    color:rgb(90, 20, 155);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+#or{
+    color:rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color:rgba(196, 174, 255, 0.568);
+}
+.inputt:focus{
+    outline:rgb(90, 20, 155) solid 2px;
+    border:rgb(90, 20, 155) solid 2px;
+    transition: 0.5s ease;
+}
+.home,.about,.contact{
+    width:60px;
+    height:60px;
+    margin-left:10px;
+    margin-top:10px;
+    background-color:rgba(255, 255, 255, 0.363);
+    border-radius: 100%;
+    border:none;
+    position: sticky;
+    top: 10px;
+    
+    transition: 0.3s ease;
+}
+.imng{
+    width: 20px;
+    height: 20px;
+    transition: 0.3s ease;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 60px;
+    position: sticky;
+    top:20px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.534) );
+    margin-bottom: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 80px;
+}
+#sub{
+    width: 89%;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: rgb(90, 20, 155);
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 0.3s ease;
+  
+}
+#sub:hover{
+    background-color: rgb(121, 62, 197);
+    transition: 0.5s ease;
+}
+#footer{
+    color:rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.home{
+    margin-right: 60px;
+    margin-top: 0%;
+}
+#welcome{
+    margin-right: 600px;
+}
+.imng:hover{
+    width: 25px;
+    height: 25px;
+    color:rgba(0, 0, 0, 0.61);
+    transition: 0.3s ease;
+
+}
+.home:hover{
+    background: linear-gradient(to right,rgba(234, 230, 255, 0.493) ,rgba(255, 255, 255, 0.562));
+    transition: 0.3s ease;
+}
